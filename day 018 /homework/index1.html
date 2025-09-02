@@ -1,0 +1,166 @@
+<!-- 
+
+
+📝 დავალება 1
+
+გააკეთე ვებგვერდი, სადაც ჩასვამ ვიდეოს:
+
+უნდა ჰქონდეს controls,
+
+poster სურათი სანამ ვიდეო დაიწყება,
+
+ზომა იყოს 500px სიგანე.
+
+📝 დავალება 2
+
+ჩასვი ვიდეო, რომელიც:
+
+ავტომატურად იწყებს (autoplay)
+
+არ აქვს ხმა (muted)
+
+უსასრულოდ მეორდება (loop)
+
+📝 დავალება 3
+
+დაამატე ვიდეოს სამი განსხვავებული ფორმატი:
+
+.mp4
+
+.webm
+
+.ogg
+
+თუ ბრაუზერი ვერ გაუშვებს ვიდეოს, უნდა გამოჩნდეს ტექსტი:
+👉 „თქვენი ბრაუზერი არ უჭერს მხარს ვიდეოს.“
+
+📝 დავალება 4
+
+შექმენი ვიდეო, რომელსაც აქვს:
+
+poster
+
+controls
+
+მაგრამ autoplay-ც და loop-იც ჩართულია.
+
+📝 დავალება 5
+
+გააკეთე გვერდი, სადაც ერთდროულად დევს ორი ვიდეო:
+
+პირველი მართვადი (controls)
+
+მეორე იწყება ავტომატურად (autoplay muted loop)  
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+
+
+
+<!-- 
+1)
+-->
+
+
+<!-- 
+<video controls poster="photo-1493612276216-ee3925520721.jpeg" width="500">
+
+    <source src="Me_at_the_zoo.mp4" >
+
+</video>
+
+
+
+
+
+<!-
+2)
+-->
+
+
+
+<video autoplay muted loop>
+
+    <source src="Me_at_the_zoo.mp4">
+
+</video> 
+
+                      
+
+
+
+<!-- 
+3)
+-->
+
+
+
+<video controls >
+
+    <source src="Me_at_the_zoo.mp4" type="video/mp4">
+    <source src="Me_at_the_zoo.mp4" type="video/webm">
+    <source src="Me_at_the_zoo.mp4" type="video/ogg">
+
+    თქვენი ბრაუზერი არ უჭერს მხარს ვიდეოს
+</video> 
+
+
+
+
+<!-- 
+4)
+-->
+
+
+
+<video controlsc poster="Screenshot 2025-09-02 at 12.46.01.png" autoplay loop>
+
+    <source src="Me_at_the_zoo.mp4">
+
+
+</video> 
+
+
+
+
+<!-- 
+5)
+-->
+
+
+<video controls>
+
+    <source src="Me_at_the_zoo.mp4">
+
+
+
+</video>
+
+
+<video autoplay muted loop width="500">
+
+    <source src="I Recreated The First YouTube Video Ever.mp4">
+    
+
+
+</video>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
