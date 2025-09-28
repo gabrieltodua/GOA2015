@@ -1,0 +1,16 @@
+
+
+
+body{
+    background-color: rgb(25, 0, 255);
+}
+
+
+p{
+    color: black;
+    text-align: center;
+}
+
+label{
+    text-align: right;
+}
