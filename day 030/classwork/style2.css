@@ -1,0 +1,4 @@
+.shadow-text {
+    color: black; 
+    text-shadow: 10px 10px 0 rgba(0, 0, 255, 0.3);
+}
