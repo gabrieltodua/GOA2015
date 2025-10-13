@@ -1,0 +1,11 @@
+goat1 = "ronaldo1"
+
+goat2 = "ronaldo2"
+
+goat3 = "ronaldo3"
+
+print(goat1)
+print(goat2)
+print(goat3)
+
+
