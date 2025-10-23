@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgray;
+  height: 150px;
+}
+
+.item {
+  background-color: royalblue;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.big {
+  flex: 1;
+}
+
+
+.small {
+  width: 60px;
+}
