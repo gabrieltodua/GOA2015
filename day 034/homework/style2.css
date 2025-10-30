@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;       
+    gap: 10px;           
+    border: 2px solid black;
+}
+
+.flex-item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid blue;
+    width: 100px;
+}
+
+.flex-item:nth-child(3) {
+    order: -1;
+}
