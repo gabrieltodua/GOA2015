@@ -1,0 +1,25 @@
+
+div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+
+}
+
+.box{
+
+    background-color: rgb(255, 0, 0);
+    width: 150px;
+    height: 150px;
+    transition: all 3s ease;
+
+}
+
+.box:hover{
+
+    transform :rotate(45deg);
+
+
+}
