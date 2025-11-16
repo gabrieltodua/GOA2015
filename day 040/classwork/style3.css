@@ -1,0 +1,35 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(142, 137, 137);
+
+}
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    background-color: rgb(152, 251, 152); 
+    transform: translateY(300px); 
+    animation: bounce 3s infinite ease-in-out; 
+}
+
+
+@keyframes bounce { 
+    
+    0% {
+        transform: translateY(300px); 
+    }
+    50% {
+        transform: translateY(-300px); 
+    }
+    100% {
+        transform: translateY(300px); 
+    }    
+
+}

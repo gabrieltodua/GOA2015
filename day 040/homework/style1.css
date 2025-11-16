@@ -1,0 +1,32 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+
+.box{
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    animation: muve 3s infinite ;
+    transform: translate(-300px);
+
+}
+
+
+@keyframes muve{
+
+    from{
+        transform: translate(-300px);
+    }
+    to{
+        transform: translate(300px);
+    }
+
+}

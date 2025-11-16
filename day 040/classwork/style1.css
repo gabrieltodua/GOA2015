@@ -1,0 +1,29 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+
+
+.box{
+
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border-top: 20px dotted rgb(81, 76, 76);
+    background-color: rgb(255, 255, 255);
+    animation: loading 1s infinite;
+}
+
+
+@keyframes loading{
+
+    100%{
+        rotate: 360deg;
+    }
+
+}
