@@ -1,0 +1,39 @@
+body{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+
+.box{
+
+    height: 200px;
+    width: 200px;
+    animation: super 5s infinite;
+    background-color: rgb(255, 0, 0);
+    transform: translatey(200px);
+}
+
+
+@keyframes super{
+
+    30%{
+        transform: translate(-500px);
+        rotate: 360deg;
+    }
+    60%{
+        transform: translatey(-200px);
+    }
+    90%{
+        transform: translate(500px);
+    }
+    100%{
+        transform: translatey(200px);
+    }
+
+
+}
