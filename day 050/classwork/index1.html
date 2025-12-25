@@ -1,0 +1,54 @@
+<!-- 
+
+0) კომენტარებით ახსენით რას აკეთებს confirm() ფუნქცია
+1) შემქენით საიტი, სადაც გექნებათ ორი type="radio" input, მომხმარებელმა აარჩიოს 
+ერთ-ერთი და ღილაკის დაჭერაზე კონსოლში გამოიტანეთ მათი არჩევანი
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- 
+    0)
+    -->
+    <!--
+    
+    // confirm() ფუნქცია აჩვენებს დიალოგურ ფანჯარას, სადაც მომხმარებელს შეუძლია დაადასტუროს (OK) ან უარყოს (Cancel) გარკვეული მოქმედება.
+    // ეს ფუნქცია აბრუნებს true თუ მომხმარებელმა დააჭირა OK და false თუ დააჭირა Cancel. 
+    
+    -->
+
+
+    <!-- 
+    1)
+    -->
+
+    <form id="myForm" onsubmit="showChoice(event)">
+        <input type="radio" name="choice" value="Option 1" id="option1">
+
+        <label for="option1">Option 1</label><br>
+
+        <input type="radio" name="choice" value="Option 2" id="option2">
+
+        <label for="option2">Option 2</label><br>   
+
+        <input type="submit">
+    </form>
+
+    
+
+
+    <script src="script1.js"></script>
+
+    
+</body>
+</html>
