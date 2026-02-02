@@ -1,0 +1,227 @@
+body{
+
+    background-color: hsl(216, 12%, 8%);
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+
+.main{
+
+    width: 400px;
+    height: 400px;
+    background-color: hsl(217, 33%, 23%);
+    border-radius: 15px;
+
+}
+
+
+.click_div{
+
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transform: translatey(50px);
+    gap: 20px;
+
+}
+
+
+.img1{
+
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 7px solid black;
+    border-radius: 10px;
+
+}
+
+
+.star1{
+
+    width: 50px;
+    height: 50px;
+    border: 7px solid black;
+    border-radius: 30px;
+    background-color: hsl(217, 12%, 63%);
+    transition: all 0.3s ease;
+
+}
+
+
+.star2{
+
+    width: 50px;
+    height: 50px;
+    border: 7px solid black;
+    border-radius: 30px;
+    background-color: hsl(217, 12%, 63%);
+    transition: all 0.3s ease;
+}
+
+
+
+.star3{
+
+    width: 50px;
+    height: 50px;
+    border: 7px solid black;
+    border-radius: 30px;
+    background-color: hsl(217, 12%, 63%);
+    transition: all 0.3s ease;
+}
+
+
+
+.star4{
+
+    width: 50px;
+    height: 50px;
+    border: 7px solid black;
+    border-radius: 30px;
+    background-color: hsl(217, 12%, 63%);
+    transition: all 0.3s ease;
+}
+
+.star5{
+
+    width: 50px;
+    height: 50px;
+    border: 7px solid black;
+    border-radius: 30px;
+    background-color: hsl(217, 12%, 63%);
+    transition: all 0.3s ease;
+}
+
+
+
+.star1:hover{
+
+    background-color: hsl(37, 96%, 48%);
+    transform: scale(1.1);
+
+}
+
+
+.star2:hover{
+
+    background-color: hsl(37, 96%, 48%);
+    transform: scale(1.1);
+
+}
+
+
+
+.star3:hover{
+
+    background-color: hsl(37, 96%, 48%);
+    transform: scale(1.1);
+
+}
+
+
+
+.star4:hover{
+
+    background-color: hsl(37, 96%, 48%);
+    transform: scale(1.1);
+
+}
+
+
+
+.star5:hover{
+
+    background-color: hsl(37, 96%, 48%);
+    transform: scale(1.1);
+
+}
+
+
+
+.wel_h2{
+
+    color: white;
+    margin-left: 30px;
+
+
+
+}
+
+
+.wel_p{
+
+    color: hsl(217, 12%, 63%);
+    margin-left: 30px;
+    margin-bottom: 15px;
+
+}
+
+
+.submit-btn{
+
+    width: 350px;
+    height: 35px;
+
+    border: solid 5px black;
+    border-radius: 10px;
+
+    background-color: rgb(100, 97, 97);
+
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
+
+.main1{
+
+    width: 400px;
+    height: 400px;
+    background-color: hsl(217, 33%, 23%);
+    border-radius: 15px;
+
+}
+
+
+.img2{
+
+    width: 150px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+
+.thankyou-h2{
+
+    color: white;
+    margin-left: 140px;
+    margin-top: 20px;
+
+}
+
+.thankyou-p{
+    color: rgb(108, 102, 102);
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.rate{
+
+    color: rgb(246, 172, 12);
+    margin-left: 110px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
