@@ -1,0 +1,55 @@
+<!-- 
+ 
+0) შექმენით საიტი, სადაც მომხმარებელი შემოიტანს სახელს, გვარს და ასაკს, შემდეგ ტექსტის სახით 
+გამოიტანეთ შემდეგი ტექსტი "გამარჯობა, *სახელი* *გვარი*, თქვენ დაიბადეთ *წელი* წელს"(აუცილებლად გამოიყენეთ constructorი
+
+1) შექმენით constructor, რომელსაც გადაეცემა ძაღლის სახელი და ჯიში, ასევე დაუმატეთ ფუნქცია, სახელად talk, 
+რომლის გამოძახებაზეც კონსოლში უნდა დაიწეროს "bark bark" 
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- 
+    1)
+    -->
+
+    <h2>შეიყვანე მონაცემები</h2>
+
+    <form onsubmit="showInfo(event)">
+        <input type="text" id="name" placeholder="სახელი" required><br><br>
+        <input type="text" id="surname" placeholder="გვარი" required><br><br>
+        <input type="number" id="age" placeholder="ასაკი" required><br><br>
+        <button type="submit">გაგზავნა</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="script1.js"></script>
+
+
+
+    <!-- 
+    2)
+    -->
+
+
+
+    <button onclick="createDog()">Create Dog</button>
+
+    <script src="dog.js"></script>
+
+
+    
+</body>
+</html>
