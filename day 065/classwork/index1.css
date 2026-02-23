@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Oswald:wght@200..700&display=swap');
+
+
+body{
+    background-color: rgb(159, 159, 159);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 1000px;
+    height: 400px;
+    transform: translate(-150px);
+}
+
+
+.top{
+
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+
+.day{
+
+    background-color:  rgb(137, 137, 137);
+    border-radius: 10px;
+}
+
+.month{
+
+    background-color:  rgb(137, 137, 137);
+    border-radius: 10px;
+
+}
+
+.year{
+    background-color:  rgb(137, 137, 137);
+    border-radius: 10px;
+
+}
+
+.day_freme{
+    background-color:  rgb(89, 89, 89);
+}
+
+
+.month_freme{
+    background-color:  rgb(89, 89, 89);
+}
+
+
+.year_freme{
+    background-color:  rgb(89, 89, 89);
+}
+
+
+
+#year{
+    font-size: 40px;
+}
+
+
+#months{
+    font-size: 40px;
+}
+
+#days{
+    font-size: 40px;
+}
+
+
+#day_s{
+    font-size: 40px;
+    color: hsl(259, 100%, 65%);
+}
+
+#year_s{
+    color: hsl(259, 100%, 65%);
+    font-size: 40px;
+}
+
+#months_s{
+    font-size: 40px;
+    color: hsl(259, 100%, 65%);
+}
+
+
+.submit{
+    transform: translate(500px) translatey(-350px);
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50px;
+    border: black solid 3px;
+}
+
+#status{
+
+    transform: translate(500px) translatey(-340px);
+
+}
