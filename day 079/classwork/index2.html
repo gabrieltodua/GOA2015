@@ -1,0 +1,52 @@
+<!--
+
+2) შექმენით საიტი, სადაც გექნებათ ერთი P თეგი, რომელშიც იქნება რიცხვი 0 და 2 ღილაკი, პირველი 
+ღილაკის დაჭერის შემდეგ p თეგში მოთავსებული რიცხვი უნდა გაიზარდოს ერთით, ხოლო მეორე ღილაკის 
+დაჭერისას უნდა დააკლდეს 1. თუ p თეგში მოთავსებული რიცხვი არის 0ზე მეტი ფერი იყოს მწვანე, ხოლოდ 
+თუ არის 0 ან 0ზე ნაკლები იყოს წითელი 
+
+3)შექმენით საიტი, სადაც გექნებათ ერთი DIV ბლოკი, ერთი P თეგი 
+(რომელშიც გამოჩნდება ფერის მნიშვნელობა) 
+და ერთი ღილაკი. ღილაკზე დაჭერის შემდეგ DIV ბლოკის ფერი უნდა შეიცვალოს შემთხვევით ფერად (rgb ფორმატში) 
+და ეს ფერი უნდა გამოჩნდეს P თეგში
+
+-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- 
+    2)
+    -->
+
+    <p id="p_main">0</p>
+
+    <button id="btn_plus" onclick="plus()">+</button>
+
+    <button id="btn_minus" onclick="minus()">-</button><br><br><br>
+
+    
+    <!-- 
+    3)
+    -->
+
+    <div id="color_block" style="width: 100px; height: 100px; background-color: rgb(0,0,0);"></div>
+
+    <p id="color_value">rgb(0,0,0)</p>
+
+    <button onclick="changeColor()">Change Color</button>
+
+    <script src="index2.js"></script>
+</body>
+</html>
