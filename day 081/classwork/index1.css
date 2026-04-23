@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(127, 126, 126);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#color{
+    width: 400px;
+    height: 200px;
+    border: solid 10px black;
+    border-radius: 10px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px
+}
+
+button{
+    height: 50px;
+    width: 500px;
+    background-color: rgb(98, 56, 56);
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
