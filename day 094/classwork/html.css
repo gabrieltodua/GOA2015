@@ -1,0 +1,118 @@
+body{
+    font-style: italic ;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    background-color: rgb(51, 61, 82);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 500px;
+}
+
+h1{
+
+    font-size: 50px;
+    color: white;
+}
+
+.mini{
+    color: white;
+    font-size: 30px;
+}
+
+#A{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1px;
+    border-radius: 10px ;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: rgb(58, 76, 102);
+    width: 500px;
+}
+
+h3{
+    transform: translate(-50px);
+    font-size: 30px;
+}
+
+p{
+    transform: translate(-100px);
+    text-decoration: none;
+    color: white;
+}
+
+
+#B{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1px;
+    border-radius: 10px ;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: rgb(58, 76, 102);
+    width: 500px;
+}
+
+#C{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1px;
+    border-radius: 10px ;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: rgb(58, 76, 102);
+    width: 500px;
+}
+
+#D{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1px;
+    border-radius: 10px ;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: rgb(58, 76, 102);
+    width: 500px;
+}
+
+
+
+#question{
+    color: white;
+}
+
+.left{
+    transform: translate(100px);
+}
+
+
+#sub{
+    font-style: italic ;
+    font-weight: bold;
+    background-color: rgb(58, 76, 102);
+    border-radius: 10px ;
+    border: 5px solid black;
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+}
