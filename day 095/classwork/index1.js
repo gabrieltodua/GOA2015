@@ -1,0 +1,1 @@
+export let math = (a, b) => a * b;
