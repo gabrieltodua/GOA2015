@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url(bg-intro-desktop.png);
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    transform: translate(100px);
+}
+
+.left{
+    color: white;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    text-align: start;
+}
+
+.h1{
+    font-size: 50px;
+    text-align: start;
+}
+
+
+#inp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    transform: translatey(-70px);
+}
+
+#submit{
+    border: black solid 3px;
+    border-radius: 5px;
+    width: 500px;
+    height: 70px;
+    background-color: hsl(154, 59%, 51%);
+}
+
+input{
+    border: black solid 3px;
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+
+input:active{
+    border: hsl(248, 32%, 49%) solid 3px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    background-color: hsl(248, 32%, 49%);
+    height: 500px;
+    border: black solid 3px;
+    border-radius: 10px;
+    text-align: center;
+    gap: 5px;
+    transform: translatey(-130px);
+}
+
+
+.right{
+    color: white;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    transform: translate(-50px) translatey(100px);
+    border: black solid 3px;
+    border-radius: 10px;
+}
+
+@media (max-width : 360px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(0, 100%, 74%) ;
+        background-image: url(bg-intro-mobile.png);
+        height: 100vh;
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 250px;
+    }
+
+    .left{
+        transform: translatey(170px);
+        color: white;    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: start;
+        font-size: 15px;
+    }
+    .h1{
+        font-size: 25px;
+    }
+    .right{
+        color: white;    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        background-color: white;
+        width: 550px;
+        height: 500px;
+        transform: translatey(100px);
+        border: black solid 3px;
+        border-radius: 10px;
+    }
+
+    .top{
+        width: 500px;
+        
+    }
+
+}
