@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: hsl(248, 70%, 10%);
+    color: white;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+
+.ticket{
+    transform: translate(-150px);
+    text-align: start;
+}
+
+.ticketb{
+    transform: translatey(550px);
+}
+
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transform: translate(-40px);
+}
