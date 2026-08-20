@@ -1,0 +1,69 @@
+<!--
+
+
+
+შექმენით მაღაზიის საიტი ქვემოთ მოცემული ნაბიჯებით
+1) თავიდან უნდა იყოს register და login გვერდები, ეს ყველაფერი შეინახეთ და შემოაწმეთ local storageით
+2) საიტზე უნდა გამოიყენოთ ეს api:https://fakestoreapi.com/products
+3) თითოეულ პროდუქტს უნდა ჰქონდეს ღილაკი, რომლის დაჭერაზეც იგი დაემატება კალათას(cart system)
+4) საიტის ბოლოს იყოს ღილაკი საღელად "Leave website", რომლის დაჭერაზეც საიტი დაიხურება 
+
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+
+
+    <div id="reg">
+
+        <h1>Registratn</h1>
+
+        <h4 class="hed">Name</h4>
+        <input type="text" placeholder="Name" id="Name">
+
+        <h4 class="hed">Email</h4>
+        <input type="email" placeholder="Email" id="Email">
+
+        <h4 class="hed">Password</h4>
+        <input type="password" placeholder="Password" id="Password">
+
+        <button id="regd">Submit</button>
+
+    </div>
+
+
+    <div id="log" style="display: none;">
+        
+        <h1>Log In</h1>
+
+        <h4 class="hed">Name</h4>
+        <input type="text" placeholder="Name" id="Namee">
+
+        <h4 class="hed">Email</h4>
+        <input type="email" placeholder="Email" id="Emaill">
+
+        <h4 class="hed">Password</h4>
+        <input type="password" placeholder="Password" id="Passwordd">
+
+        <button id="logd">Submit</button>
+
+    </div>
+
+
+
+
+    <script src="index1.js"></script>
+    
+</body>
+</html>
