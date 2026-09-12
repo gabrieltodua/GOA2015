@@ -1,0 +1,6 @@
+; 0)ახსენი ერთ წინადადებაში რას აკეთებს text-align
+; 1)შექმენი <p> ელემენტი და CSS-ში დაუწერე text-align: center
+; 2)შექმენი <h1> ელემენტი და CSS-ში დაუწერე color: blue და font-size: 30px
+; 3)დაწერე CSS, რომელიც ყველა <p> ტექსტს მისცემს font-weight: bold
+; 4)შექმენი <span> ელემენტი და CSS-ში მიუწერე text-decoration: underline
+; 5)დაწერე CSS, რომელიც ყველა <h2> ტექსტს მისცემს font-style: italic და color: red

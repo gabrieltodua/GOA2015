@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="page">
+
+    <!-- Left side: the list of desserts -->
+    <section class="products">
+      <h1>Desserts</h1>
+      <div class="product-list" id="product-list">
+        <!-- Product cards are added here by script.js -->
+      </div>
+    </section>
+
+    <!-- Right side: the cart -->
+    <aside class="cart">
+      <h2 class="cart-title">Your Cart (<span id="cart-count">0</span>)</h2>
+
+      <!-- Shown when the cart is empty -->
+      <div class="cart-empty" id="cart-empty">
+        <img src="./assets/images/illustration-empty-cart.svg" alt="">
+        <p>Your added items will appear here</p>
+      </div>
+
+      <!-- Shown when the cart has items -->
+      <div class="cart-full" id="cart-full">
+        <ul class="cart-items" id="cart-items"></ul>
+
+        <p class="cart-total">
+          <span>Order Total</span>
+          <span class="cart-total-price" id="cart-total">$0.00</span>
+        </p>
+
+        <p class="carbon">
+          <img src="./assets/images/icon-carbon-neutral.svg" alt="">
+          This is a <strong>carbon-neutral</strong> delivery
+        </p>
+
+        <button class="btn-main" id="confirm-btn">Confirm Order</button>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Order confirmation modal -->
+  <div class="modal-background" id="modal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <img class="modal-icon" src="./assets/images/icon-order-confirmed.svg" alt="">
+      <h2 id="modal-title">Order Confirmed</h2>
+      <p class="modal-text">We hope you enjoy your food!</p>
+
+      <div class="modal-summary">
+        <ul class="modal-items" id="modal-items"></ul>
+        <p class="cart-total">
+          <span>Order Total</span>
+          <span class="cart-total-price" id="modal-total">$0.00</span>
+        </p>
+      </div>
+
+      <button class="btn-main" id="new-order-btn">Start New Order</button>
+    </div>
+  </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Gabriel Todua</a>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

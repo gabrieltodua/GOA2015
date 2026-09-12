@@ -1,0 +1,198 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: row;
+    gap: 10px;
+    background-color: rgb(161, 160, 160);
+
+}
+
+.car1{
+
+    width: 300px;
+    background-color: rgb(255, 166, 0);
+    height: 550px;
+    border-radius: 10px;
+    border: 3px solid black;
+
+}
+
+
+.car2{
+
+    width: 300px;
+    background-color: rgb(40, 129, 127);
+    height: 550px;
+    border-radius: 10px;
+    border: 3px solid black;
+    
+}
+
+
+
+.car3{
+
+    width: 300px;
+    background-color: rgb(44, 76, 4);
+    height: 550px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+
+
+.b1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+
+.b2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+
+
+.b3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    
+}
+
+p{
+
+    font-size: 20px;
+
+
+
+}
+
+.but1{
+
+
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: rgb(0, 0, 0) solid 1px;
+    background-color: rgb(185, 158, 3);
+    color: black;
+
+
+}
+
+
+.but2{
+
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: black solid 1px;
+    background-color: rgb(73, 130, 105);
+    color: black;
+
+
+    
+}
+
+
+
+.but3{
+
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: black solid 1px;
+    background-color: rgb(27, 68, 16);
+    color: black;
+
+    
+}
+
+/* aipadi */
+
+
+@media(max-width:768px){
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: row;
+        gap: 10px;
+
+    }
+    .car1{
+        width: 200px;
+        height: 600px;
+    }
+    .car2{
+        width: 200px;
+        height: 600px;
+    }
+    .car3{
+        width: 200px;
+        height: 600px;
+    }
+
+
+}
+
+/* teleponi */
+
+
+@media(max-width:480px){
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: row;
+        gap: 1px;
+
+    }
+    .car1{
+        width: 200px;
+        height: 300px;
+    }
+    .car2{
+        width: 200px;
+        height: 300px;
+    }
+    .car3{
+        width: 200px;
+        height: 300px;
+    }
+    .but1{
+        transform: translatey(-200px);
+    }
+    .but2{
+        transform: translatey(-200px);
+    }
+    .but3{
+        transform: translatey(-177px);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* 480px, 768px, 1024px */

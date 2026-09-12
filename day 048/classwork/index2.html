@@ -1,0 +1,110 @@
+<!--
+
+2) კომენტარებით ახსენით, რატომ ვიყენებთ ფუნქციებს
+3) შექმენით საიტი, სადაც გვექნება p თეგი და 2 ღილაკი, პირველ ღილაკზე დაჭერისას შეიცვალოს ტექსტი, მეორეზე დაჭერისას კი დაბურნდეს
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 
+    2)
+    -->
+    <!-- 
+    // ფუნქციებს JavaScript-ში ვიყენებთ იმისთვის, რომ:
+
+    // 1️⃣ ერთი და იგივე კოდი ბევრჯერ არ გავიმეოროთ
+    // ერთხელ ვწერთ ლოგიკას და რამდენჯერაც გვინდა, გამოვიძახებთ
+
+    function sayHello() {
+    console.log("გამარჯობა");
+    }
+
+    // ფუნქციის გამოძახება
+    sayHello();
+    sayHello();
+    sayHello();
+
+
+    // 2️⃣ კოდი იყოს უფრო დალაგებული და წაკითხვადი
+    // დიდი კოდის პატარა ნაწილებად დაყოფა უფრო მარტივია
+
+    function calculateSum(a, b) {
+    return a + b;
+    }
+
+
+    // 3️⃣ ფუნქციებს შეუძლიათ მიიღონ მონაცემები (პარამეტრები)
+    // ეს გვაძლევს მოქნილობას
+
+    let result = calculateSum(5, 10);
+    console.log(result);
+
+
+    // 4️⃣ ფუნქცია გვიბრუნებს შედეგს (return)
+    // შეგვიძლია ეს შედეგი სხვაგან გამოვიყენოთ
+
+    function square(number) {
+    return number * number;
+    }
+
+    let squared = square(4);
+    console.log(squared);
+
+
+    // 5️⃣ ფუნქციები რეაგირებენ მოვლენებზე (DOM + Events)
+    // მაგალითად ღილაკზე დაჭერა
+
+    button.onclick = function () {
+    // ეს კოდი შესრულდება მხოლოდ მაშინ,
+    // როცა მომხმარებელი დააჭერს ღილაკს
+    alert("ღილაკს დააჭირე!");
+    };
+
+
+    // 6️⃣ ფუნქციები აადვილებენ შეცდომების პოვნას და შეცვლას
+    // თუ რაღაც არ მუშაობს, მხოლოდ ერთ ფუნქციას ვასწორებთ
+
+    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 
+    3)
+    -->
+
+
+
+    <p id="para">hi</p>
+
+    <button id="but1" onclick="change1()">change</button>
+
+    <button id="but2" onclick="change2()">change</button>
+
+
+
+
+
+    <script src="script2.js"></script>
+</body>
+</html>

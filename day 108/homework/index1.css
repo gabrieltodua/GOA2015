@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    height: 100vh;
+    background-color: rgb(29, 23, 130);
+}
+
+#welcome {
+    background-image: url(bg-sidebar-desktop.svg);
+    width: 550px;
+    height: 650px;
+    border-radius: 30px;
+    border: black solid 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 35px;
+    gap: 10px;
+}
+
+#dysplay_user{
+    background-image: url(bg-sidebar-desktop.svg);
+    width: 550px;
+    height: 650px;
+    border-radius: 30px;
+    border: black solid 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 35px;
+    gap: 10px;
+}
+
+.hed {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.mini {
+    font-size: 17px;
+    color: rgb(117, 117, 117);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.welcome h3 {
+    width: 420px;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#welcome input {
+    width: 420px;
+    height: 50px;
+    border-radius: 10px;
+    border: black solid 3px;
+    text-align: center;
+    font-size: 17px;
+}
+
+#nameerror,
+#emailerror,
+#phononumbererror {
+    color: rgb(255, 0, 25);
+    font-size: 16px;
+}
+
+
+
+#done {
+    width: 220px;
+    height: 55px;
+    transform: translatey(20px);
+    border-radius: 12px;
+    border: black solid 3px;
+    text-align: center;
+    background-color: rgb(250, 130, 142);
+    color: white;
+    font-size: 22px;
+}
+
+#continue {
+    width: 220px;
+    height: 55px;
+    transform: translateY(35px);
+    border-radius: 12px;
+    border: black solid 3px;
+    text-align: center;
+    background-color: rgb(250, 130, 142);
+    color: white;
+    font-size: 22px;
+}
+
+#back{
+    width: 220px;
+    height: 55px;
+    transform: translateY(35px);
+    border-radius: 12px;
+    border: black solid 3px;
+    text-align: center;
+    background-color: rgb(250, 130, 142);
+    color: white;
+    font-size: 22px;
+}

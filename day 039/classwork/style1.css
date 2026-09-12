@@ -1,0 +1,23 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box{
+
+    background-color: rgb(255, 0, 0);
+    width: 200px ;
+    height: 200px;
+    transition: background-color 5s ease , transform 3s ease;
+}
+
+
+.box:hover{
+
+    background-color: rgb(0, 255, 0);
+    transform: scale(4);
+
+}

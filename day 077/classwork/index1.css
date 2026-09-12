@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(185, 41%, 84%);
+    margin-top: 100px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+button{
+    cursor: pointer;
+}
+.main{
+
+    width: 1000px;
+    height: 500px;
+    background-color: hsl(189, 47%, 97%);
+    border: black solid 5px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}  
+
+p{
+    margin-left: 10px;
+    font-size: 15px;
+    color: hsl(183, 100%, 15%);
+}
+
+.person{
+    font-size: 15px;
+    color: hsl(0, 0%, 0%);
+}
+#reset{
+    background-color: hsl(183, 73%, 33%);
+    color: hsl(189, 47%, 97%);
+    width: 420px;
+    height: 50px;
+    border-radius: 5px;
+    border: black solid 2px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 10px;  
+}
+h1{
+
+    font-size: 50px;
+    margin-left: 200px;
+}
+h4{
+
+    margin-left: 50px;
+}
+h2{
+
+    font-size: 50px;
+    color: hsl(183, 100%, 15%);
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: black solid 2px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.left{
+    background-color: hsl(180, 1%, 71%);
+    margin-top: 10px;
+    width: 480px;
+    height: 480px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px hsl(122, 89%, 15%);
+
+}
+
+.right{
+    background-color: hsl(183, 100%, 15%);
+    margin-top: 10px;
+    width: 480px;
+    height: 480px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px hsl(122, 89%, 15%);
+}
+
+#calculate{
+    background-color: hsl(183, 73%, 33%);
+    color: hsl(189, 47%, 97%);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: black solid 2px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 10px;  
+    margin-bottom: 30px;
+}
+#money_five{
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(189, 47%, 97%);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: black solid 2px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#money_ten{
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(189, 47%, 97%);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: black solid 2px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+#money_fifteen{
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(189, 47%, 97%);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: black solid 2px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+#money_twenty{
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(189, 47%, 97%);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: black solid 2px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+#money_twentyfive{
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(189, 47%, 97%);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: black solid 2px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+#money_fifty{
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(189, 47%, 97%);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: black solid 2px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#money_custom{
+    background-color: hsl(0, 0%, 100%);
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    border: black solid 2px;
+    text-align: center;
+    margin-left: 10px;
+}

@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 200px; 
+  gap: 20px;
+
+}
+
+
+.container[style*="height: 200px"], 
+.container {
+  align-items: center;
+}
+
+

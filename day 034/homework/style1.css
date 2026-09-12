@@ -1,0 +1,13 @@
+div{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+
+
+}
+
+p{
+
+    border: 5px black solid;
+
+}

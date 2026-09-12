@@ -1,0 +1,67 @@
+<!--
+
+2) კომენტარებით ახსენით რა არის dot notation
+3) შექმენით საიტი სადაც გექნებათ ყუთი და ორი ღილაკი, ერთი ღილაკის 
+დაჭერაზე შეიცვალოს ფერი, მეორეზე დაჭერისას კი დაბრუნდეს პირველად ფერზე 
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+    2) 
+    -->
+
+    <!-- 
+        მაგალითი 1: ობიექტის property
+        // ვქმნით ობიექტს
+        let person = {
+            name: "Gabriel",
+            age: 16,
+            country: "Georgia"
+        };
+
+        // dot notation-ით ვიღებთ name-ს
+        console.log(person.name); // "Gabriel"
+
+        // dot notation-ით ვიღებთ age-ს
+        console.log(person.age); // 16
+
+
+        👉 აქ:
+
+        person არის ობიექტი
+
+        . (წერტილი) გვეხმარება მივწვდეთ მის შიგნით არსებულ მონაცემებს
+
+        name, age არის properties
+
+
+    -->
+
+
+    <!-- 
+    3)
+    -->
+
+
+    <div id="colorBox" style="width:300px; height:300px; background-color:red;"></div><br>
+    <button onclick="color1()">Change Color</button>
+    <button onclick="color2()">Reset Color</button>
+
+
+
+
+    <script src="script2.js"></script>
+    
+</body>
+</html>

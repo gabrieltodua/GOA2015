@@ -1,0 +1,57 @@
+<!-- 
+შექმენით მაღაზიის საიტი, სადაც გექნებატ sign up და log in 
+გვერდები, საიტზე პირველათ შესვლისას უნდა ჩანდეს sign up გვერდი, 
+ამ გვერდზე შეტანილი ინფრომაცია შეინახეთ local storageში და გამოაჩინეთ 
+log in, თუ მომხმარებელი log inს სწორად გაივლის შემდეგ გადაიყვანეთ თვითონ 
+მაღაზიის საიტზე, მაღაზია შეგიძლიათ გააკეთოთ თქვენს სასურველ თემაზე 
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+
+
+    <div id="sing_up" class="same">
+
+        <h1 class="hed">sing up</h1>
+
+        <input type="text" id="username"  class="user" placeholder="username">
+
+        <input type="email" id="email" class="email" placeholder="email">
+
+        <input type="password" id="password" class="password" placeholder="password">
+
+        <button id="submit">Submit</button>
+
+
+    </div>
+
+
+    <div id="log_in" class="same" style="display: none;"> 
+
+        <h1 class="hed">log in</h1>
+
+        <input type="text" id="usernamec"  class="user" placeholder="username">
+
+        <input type="email" id="emailc" class="email" placeholder="email">
+
+        <input type="password" id="passwordc" class="password" placeholder="password">
+
+        <button id="submitc">Submit</button>
+
+
+    </div>
+
+
+    <script src="index1.js"></script>
+    
+</body>
+</html>

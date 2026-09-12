@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;               
+    border: 2px solid black;
+    height: 300px;          
+}
+
+.flex-item {
+    background-color: lightcoral;
+    text-align: center;
+    border: 1px solid red;
+}
+
+
+.flex-item:first-child {
+    order: 3;
+}

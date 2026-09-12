@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    gap: 10px;
+}
+
+.left{
+    background-color: hsl(252, 100%, 67%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    border: black solid 3px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: hsl(241, 81%, 54%);
+    font-size: 50px;
+    color: white;
+    border: black solid 3px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.mini{
+    font-size: 20px;
+    color: gray;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.l_top{
+    font-size: 30px;
+    color: rgb(57, 57, 57);
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.deck{
+    text-align: center;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.right{
+    background-color: hsl(0, 0%, 62%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    border: black solid 3px;
+    gap: 30px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.l_rmvv{
+    transform: translatey(-30px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 250px;
+    height: 50px;
+    background-color: hsl(0, 0%, 36%);
+    color: white;
+    border: black solid 1px;
+    gap: 30px;
+    color: black;
+    border-radius: 10px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.r_top{
+    transform: translate(-70px) translatey(-0px);
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.continue{
+    width: 250px;
+    height: 50px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}

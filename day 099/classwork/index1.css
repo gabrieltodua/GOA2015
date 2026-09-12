@@ -1,0 +1,177 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 500px;
+}
+
+.sidebar{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-right: 3px black solid;
+    border-radius: 10px;
+    height: 1500px;
+    transform: translate(970px) translatey(-100px);
+
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transform: translate(-50px);
+}
+
+.op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transform: translate(-50px);
+}
+
+.mini{
+    opacity: 0.5;
+    color: rgb(0, 0, 0);
+}
+
+
+.weather{
+    background-color: hsl(44, 84%, 75%);
+    width: 250px;
+    transform: translatey(200px) translate(-10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transform: translate(610px);
+}
+
+.top{
+    transform: translatey(-400px) translate(-90px);
+}
+
+.Print_receipt{
+    border-radius: 10px;
+    width: 210px;
+    height: 50px;
+}
+
+.Add_to_calendar{
+    border-radius: 10px;
+    width: 210px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+
+.rz1{
+    background-color: hsl(41, 100%, 93%);
+    transform: translate(-400px);
+    width: 700px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.day{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.pay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    transform: translatey(-21px);
+}
+
+.help1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+
+
+.rz2{
+    background-color: hsl(15, 74%, 41%);
+    transform: translate(-400px);
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    transform: translate(-300px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.cls {
+    background: white;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.01);
+    border: 1px solid #000000;
+    height: 180px;
+    transform: translatey(500px) translate(-1400px);
+    width: 300px;
+    height: 400px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.toptop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.imgcls{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid black;
+}

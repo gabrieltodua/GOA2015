@@ -1,0 +1,56 @@
+<!-- 
+
+
+2)შექმენით HTML გვერდი ორი ღილაკით — "გაგზავნა" და "გაუქმება". "გაგზავნა"-ზე დაჭერისას 
+setTimeout-ით 3 წამში გამოჩნდეს alert "შეტყობინება გაიგზავნა!". "გაუქმება"-ზე დაჭერისას 
+clearTimeout-ით გაუქმდეს და გამოჩნდეს alert "გაუქმდა".
+მინიშნება: timeoutID შეინახეთ ცვლადში რომ შემდეგ clearTimeout(timeoutID)-ით გაუქმდეს
+
+3)შექმენით საათის მაგვარი — გვერდზე იყოს <p> ტექსტით "დაელოდეთ...". ღილაკზე დაჭერისას setTimeout-ით 
+5 წამში ტექსტი შეიცვალოს "დრო ამოიწურა!"-თ. მეორე ღილაკით კი შეძლოთ "განახლება" — clearTimeout-ით 
+გაუქმდეს და <p> დაბრუნდეს "დაელოდეთ..."-ზე.
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index3.css">
+</head>
+<body>
+
+
+    <!-- 
+    2)
+    -->
+
+    <button id="send">გაგზავნა</button>
+
+    <button id="cancel">გაუქმება</button>
+
+
+
+    <!-- 
+    3)
+    -->
+
+    <p id="time">დაელოდეთ...</p>
+
+    <button id="start">დაწყება</button>
+
+    <button id="reset">განახლება</button>
+
+
+
+
+    <script src="index3.js"></script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!--
+
+
+
+2) გააკეთეთ საიტი, სადაც მომხმარებელი შემოიტანს სახელს, გვარს და პაროლს inputის დახმარებით, შემდეგ jsის 
+გამოყენებით შეიამოწმეთ პაროლი, თუ ეს პაროლი არის "Password123" გამოიტანეთ "Welcome to the website *მომხმარებლის 
+სახელი*", თუ პაროლი არის არასწორი გამოიტანეთ "Wrong Password"
+3) გააკეთეთ საიტი, სადაც მომხმარებელი შემოიტანს სახელს, გვარს და პაროლს inputის დახმარებით, შემდეგ jsის 
+გამოყენებით შეიამოწმეთ პაროლი და სახელი, თუ ეს პაროლი არის "Password123" და სახელი "SecretName" გამოიტანეთ 
+"Welcome to the website", სხვა შემთხვევაში გამოიტანეთ "Wrong Password"
+
+
+
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 
+    2)
+    -->
+
+    <h1>დავალება 2</h1>
+
+    <form onsubmit="checkpasword(event)">
+
+        <label for="firstName">First Name : </label>
+        <input type="text" id="firstName" placeholder="First Name">
+        
+        <label for="lastName">Last Name : </label>
+        <input type="text" id="lastName" placeholder="Last Name">
+
+        <label for="password">Password : </label>
+        <input type="password" id="password" placeholder="Password">
+
+        <input type="submit">
+
+    </form>
+
+
+    <h2 id="status"></h2>
+
+
+
+
+
+    <h1>დავალება 3</h1>
+
+
+    <form onsubmit="checkpasword1(event)">
+
+        <label for="firstName1">First Name : </label>
+        <input type="text" id="firstName1" placeholder="First Name">
+        
+        <label for="lastName2">Last Name : </label>
+        <input type="text" id="lastName2" placeholder="Last Name">
+
+        <label for="Password3">Password : </label>
+        <input type="password" id="Password3" placeholder="Password">
+
+        <input type="submit">
+
+    </form>
+
+    <h2 id="status1"></h2>
+
+    <script src="script2.js"></script>
+    
+</body>
+</html>

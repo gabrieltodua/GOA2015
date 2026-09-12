@@ -1,0 +1,65 @@
+<!--
+
+
+0)ფერის ცვლილება — ღილაკზე დაჭერით div-ის background color შეიცვლოს setInterval-ით რენდომ ფერებზე.
+1)Fade In/Out — ღილაკი რომელიც elementს opacity-ს 0-დან 1-მდე და პირიქით ცვლის setInterval-ით.
+2)მოძრავი ყუთი — div რომელიც მარცხნიდან მარჯვნივ მიდის setInterval + style.left-ით.
+3)Counter ანიმაცია — რიცხვი 0-დან 100-მდე ითვლის ეკრანზე setInterval-ით.
+4)Shake ეფექტი — ღილაკზე დაჭერით element "ირხევა" — სწრაფად ცვლის style.marginLeft-ს რამდენჯერმე. 
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- 
+    0)
+    -->
+
+    <div id="colorBox" style="width: 100px; height: 100px; background-color: rgb(255, 255, 255);"></div>
+
+    <button id="colorButton">Change Color</button><br><br><br>
+
+
+    <!-- 
+    1)
+    -->
+
+
+
+    <!-- 
+    2)
+    -->
+
+
+    <div id="box" style="width: 100px; height: 100px; background-color: red; position: relative; left: 0;"></div><br><br><br>
+
+
+    <!-- 
+    3)
+    -->
+
+    <p id="counter" style="font-size: 30px;">0</p><br><br><br>
+
+
+    <!-- 
+    4)
+    -->
+
+    <button id="shakeButton">Shake</button>
+
+    <div id="shakeBox" style="width: 100px; height: 100px; background-color: rgb(0, 0, 0); "></div>
+
+    <script src="index1.js"></script>
+    
+</body>
+</html>

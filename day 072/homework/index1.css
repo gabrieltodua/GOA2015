@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(87, 87, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#box1{
+
+    background-color: rgb(181, 121, 19);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 100%;
+}
+
+
+#box2{
+
+
+    background-color: rgb(181, 121, 19);
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    position: absolute;
+    
+}

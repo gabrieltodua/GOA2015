@@ -1,0 +1,33 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+
+.box{
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    transform: translate(-500px);
+    animation-name: locacia;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes locacia{
+
+    50%{
+        transform: translate(500px);
+    }
+    100%{
+        transform: translate(-500px);
+    }
+
+
+}

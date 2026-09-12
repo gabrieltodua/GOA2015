@@ -1,0 +1,72 @@
+<!--
+
+1) გამოიყენე document.getElementById(), რომ აირჩიო <p> ელემენტი და შეცვალო მისი ტექსტი innerText-ის გამოყენებით
+
+2) შექმენი ღილაკი, რომლის დაჭერაზეც <h1> ელემენტს შეეცვლება მისი ფერი style.color-ის გამოყენებით
+
+3) გამოიყენე document.getElementById(), რომ შეცვალო <div> ელემენტის background-color JavaScript-ით
+
+4) შექმენი ღილაკი, რომლის დაჭერაზეც <p> ელემენტის font-size გაიზრდება
+
+5) გამოიყენე document.getElementsByClassName(), რომ აირჩიო ელემენტები და ერთ-ერთს შეუცვალო ტექსტი 
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- 
+    1)
+    -->
+
+    <p id="myp">ეს არის პარაგრაფი</p><br><br><br>
+
+
+
+    <!-- 
+    2)
+    -->
+    <h1 id="myh1">ეს არის სათაური</h1>
+
+    <button id="colorbutton" onclick="color()">ფერი</button><br><br><br>
+
+    <!--
+    3)
+    -->
+
+    <div id="mydiv" style="width: 100px; height: 100px; background-color: rgb(4, 0, 255);"></div>
+
+    <button id="bgcolorbutton" onclick="bgcolor()">ფონი</button>
+
+
+    <!-- 
+    4)
+    -->
+
+    <p id="myfont">ეს არის პარაგრაფი</p>
+    
+    <button id="fontsizebutton" onclick="fontsize()">გაზრდა</button><br><br><br>
+
+    <!-- 
+    5)
+    -->
+
+    <p class="myclass">ეს არის პარაგრაფი 1</p>
+
+    <p class="myclass">ეს არის პარაგრაფი 2</p>
+
+    <p class="myclass">ეს არის პარაგრაფი 3</p>
+    
+
+    <script src="index1.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex; 
+
+    flex-direction: column; 
+
+    justify-content: center; 
+
+    align-items: center; 
+
+    height: 300px; 
+
+
+    gap: 10px;
+
+}
+
+.flex-item {
+    background-color: lightblue;
+
+    text-align: center;
+
+}
