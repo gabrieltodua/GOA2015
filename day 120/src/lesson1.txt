@@ -1,0 +1,9 @@
+1) შექმენი React Component სახელად `Header`, რომელიც გამოიტანს `<h1>` ტექსტით "My Website"
+
+2) შექმენი React Component სახელად `Card`, რომელიც გამოიტანს `<div>`-ში სათაურს და ტექსტს
+
+3) შექმენი ორი განსხვავებული Component და `App` Component-ში ორივე გამოიყენე
+
+4) შექმენი Component სახელად `Welcome`, რომელსაც ექნება `<h2>` და `<p>` ელემენტები
+
+5) შექმენი `Button` Component, რომელიც გამოიტანს `<button>`-ს ტექსტით "Click Me"
