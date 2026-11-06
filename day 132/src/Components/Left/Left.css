@@ -1,0 +1,32 @@
+.left{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.help2{
+    color: #BDF53E;
+}
+.help3{
+    color: #7E868D;
+    font-size: 15px;
+}
+.help4{
+    width: 100%;
+    border: #7E868D solid 3px;
+    border-radius: 10px;
+}
+.help5{
+    color: #7E868D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+.help8{
+    color: #a1afbe;
+}
+.s{
+    color: #6A6D74;
+}
